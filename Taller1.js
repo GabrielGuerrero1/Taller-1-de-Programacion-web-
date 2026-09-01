@@ -34,3 +34,11 @@ if (nota >= 90 && nota <= 100) {
 } else {
     console.log("Nota invalida");
 }
+
+// EJERCICIO 3 - CONVERSOR DE TEMPERATURA
+
+let celsius = 25;
+
+let fahrenheit = (celsius * 9 / 5) + 32;
+
+console.log(celsius + "°C = " + fahrenheit + "°F");
